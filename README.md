@@ -1,0 +1,2 @@
+# UISearchBar-InnerComponents
+获取UISearchBar内部输入控件textField和按钮控件Cancel Button.
