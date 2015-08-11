@@ -15,6 +15,8 @@
 		FEF3521B1B79ECB40070C6D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF3521A1B79ECB40070C6D5 /* Images.xcassets */; };
 		FEF3521E1B79ECB40070C6D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF3521C1B79ECB40070C6D5 /* LaunchScreen.xib */; };
 		FEF3522A1B79ECB40070C6D5 /* UISearchBar_InnerComponentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF352291B79ECB40070C6D5 /* UISearchBar_InnerComponentsTests.m */; };
+		FEF352371B79ED0A0070C6D5 /* UISearchBar-InnerComponents.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FEF352331B79ED0A0070C6D5 /* UISearchBar-InnerComponents.podspec */; };
+		FEF3523A1B79ED4D0070C6D5 /* UISearchBar+VDInnerComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF352391B79ED4D0070C6D5 /* UISearchBar+VDInnerComponents.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,9 @@
 		FEF352231B79ECB40070C6D5 /* UISearchBar-InnerComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UISearchBar-InnerComponentsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF352281B79ECB40070C6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEF352291B79ECB40070C6D5 /* UISearchBar_InnerComponentsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISearchBar_InnerComponentsTests.m; sourceTree = "<group>"; };
+		FEF352331B79ED0A0070C6D5 /* UISearchBar-InnerComponents.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "UISearchBar-InnerComponents.podspec"; sourceTree = "<group>"; };
+		FEF352381B79ED4D0070C6D5 /* UISearchBar+VDInnerComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+VDInnerComponents.h"; sourceTree = "<group>"; };
+		FEF352391B79ED4D0070C6D5 /* UISearchBar+VDInnerComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+VDInnerComponents.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +73,8 @@
 				FEF352091B79ECB40070C6D5 /* UISearchBar-InnerComponents */,
 				FEF352261B79ECB40070C6D5 /* UISearchBar-InnerComponentsTests */,
 				FEF352081B79ECB40070C6D5 /* Products */,
+				FEF352331B79ED0A0070C6D5 /* UISearchBar-InnerComponents.podspec */,
+				FEF352341B79ED0A0070C6D5 /* Pod */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +127,31 @@
 				FEF352281B79ECB40070C6D5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEF352341B79ED0A0070C6D5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FEF352351B79ED0A0070C6D5 /* Assets */,
+				FEF352361B79ED0A0070C6D5 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		FEF352351B79ED0A0070C6D5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FEF352361B79ED0A0070C6D5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FEF352381B79ED4D0070C6D5 /* UISearchBar+VDInnerComponents.h */,
+				FEF352391B79ED4D0070C6D5 /* UISearchBar+VDInnerComponents.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEF352191B79ECB40070C6D5 /* Main.storyboard in Resources */,
+				FEF352371B79ED0A0070C6D5 /* UISearchBar-InnerComponents.podspec in Resources */,
 				FEF3521E1B79ECB40070C6D5 /* LaunchScreen.xib in Resources */,
 				FEF3521B1B79ECB40070C6D5 /* Images.xcassets in Resources */,
 			);
@@ -226,6 +259,7 @@
 				FEF3520D1B79ECB40070C6D5 /* main.m in Sources */,
 				FEF352161B79ECB40070C6D5 /* ViewController.m in Sources */,
 				FEF352131B79ECB40070C6D5 /* UISearchBar_InnerComponents.xcdatamodeld in Sources */,
+				FEF3523A1B79ED4D0070C6D5 /* UISearchBar+VDInnerComponents.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

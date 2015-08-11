@@ -8,7 +8,11 @@
 
 #import "ViewController.h"
 
+#import "UISearchBar+VDInnerComponents.h"
+
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 
 @end
 
@@ -17,6 +21,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"input textField %@", [self.searchBar vd_inputTextField].placeholder);
+    NSLog(@"cancel button %@", [[self.searchBar vd_cancelButton] titleForState:UIControlStateNormal]);
 }
 
 - (void)didReceiveMemoryWarning {
