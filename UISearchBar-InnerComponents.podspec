@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "UISearchBar-InnerComponents"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "sth useful."
   s.description      = <<-DESC
                        wait for next time.

@@ -25,8 +25,7 @@
 #pragma mark Public Class Method
 
 #pragma mark Public Instance Method
-- (UITextField *)vd_inputTextField
-{
+- (UITextField *)vd_inputTextField {
     for (UIView *subview in self.subviews) {
         for (UIView *sonview in subview.subviews) {
             if([sonview isKindOfClass:[UITextField class]]) {
@@ -38,8 +37,7 @@
     return nil;
 }
 
-- (UIButton *)vd_cancelButton
-{
+- (UIButton *)vd_cancelButton {
     for(UIView *subview in self.subviews) {
         for (UIView *sonview in subview.subviews) {
             if([sonview isKindOfClass:[UIButton class]]) {
