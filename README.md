@@ -17,4 +17,4 @@
 ```
 ## License
 
-[MIT license](LICENSE). 
+[MIT license](LICENSE)
